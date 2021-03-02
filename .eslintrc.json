@@ -21,7 +21,10 @@
       "warn",
       "single"
     ],
-    "semi": ["warn", "never"],
+    "semi": [
+      "warn",
+      "never"
+    ],
     "no-empty-function": "off",
     "no-empty": "off",
     "no-empty-pattern": "off",
@@ -44,15 +47,18 @@
         ]
       }
     ],
-    "@typescript-eslint/member-delimiter-style": ["warn", {
-      "multiline": {
-        "delimiter": "comma",
-        "requireLast": false
-      },
-      "singleline": {
-        "delimiter": "comma",
-        "requireLast": false
+    "@typescript-eslint/member-delimiter-style": [
+      "warn",
+      {
+        "multiline": {
+          "delimiter": "comma",
+          "requireLast": false
+        },
+        "singleline": {
+          "delimiter": "comma",
+          "requireLast": false
+        }
       }
-    }]
+    ]
   }
 }
